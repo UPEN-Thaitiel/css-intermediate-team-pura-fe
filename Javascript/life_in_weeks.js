@@ -30,6 +30,8 @@ function lifeInWeeks(age) {
     
     //Write your code here.
     
+    var msg = 'Hello World';
+    console.log(msg);
     
     
     
