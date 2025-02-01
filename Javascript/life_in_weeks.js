@@ -32,6 +32,15 @@ function lifeInWeeks(age) {
     
     var msg = 'Hello World';
     console.log(msg);
+    const max = 90;
+    const days = 365;
+    const weeks = 52;
+    const months = 12;
+    const yearsLeft = max - age;
+    const daysLeft = yearsLeft * days;
+    const weeksLeft = yearsLeft * weeks;
+    const monthsLeft = yearsLeft * months;
+    console.log(You have ${days} days, ${weeks} weeks, and ${months} months left.);
 
     
     
